@@ -2,8 +2,18 @@ body {
     background-color: #f6f6f6;
     color: #212121;
     font-family: 'Raleway', sans-serif;
+    line-height: 1,5;
     margin: 0 3%;
-    padding: 3%;
+    padding: 0 10%;
+    text-align: center;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fa744f;
 }
 
 h1, h2, h3 {
@@ -11,23 +21,46 @@ h1, h2, h3 {
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+h1 {
+    font-size:3rem;
+}
+
+hr {
+    border-style: none;
+    width: 7%;
+    border-top: dotted;
+    border-color: lightgrey;
+    border-width: 5px;
+    margin: 5% auto 5% auto;
+  }
+
 img {
     width: 30%;
 }
 
-ul li {
-    padding: 7px;
-}
-
 table {
-    text-align: left;
     width: 30%;
 }
 
+
 /******* CLASSES *********/
+
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
 
 .footer {
     color: #679b9b;
-    text-align: center;
+}
+
+.list {
+    padding-left: 37%;
+    text-align: left;
+  }
+
+.quote {
+    color: #679b9b;
 }
 
